@@ -1,9 +1,4 @@
-# gestionale-quadri-updates
-🇮🇹 Italiano
-📌 Descrizione breve (per l'intestazione della repository)
-Un software gestionale desktop avanzato, sviluppato in Python e Tkinter con database SQLite, progettato specificamente per officine di cablaggio e studi di progettazione di quadri elettrici.
 
-📝 Descrizione dettagliata (per il README.md)
 Gestionale Quadri Elettrici è una soluzione all-in-one pensata per ottimizzare la gestione di officina, il controllo dei costi, il magazzino e la progettazione tecnica nel settore elettrotecnico.
 
 🚀 Caratteristiche Principali:
@@ -22,10 +17,7 @@ Gestione Documentale & Foto Report: Salvataggio sicuro di manuali, schede tecnic
 Modalità Multi-Utente & Rete (NAS): Gestione dei ruoli (Admin, Operatore, Quadrista) e supporto per ambienti di rete condivisi.
 
 🇬🇧 English
-📌 Short Description (for repository header)
-An advanced desktop management software built in Python (Tkinter & SQLite) tailored specifically for electrical switchboard workshops and engineering studios.
 
-📝 Detailed Description (for the README.md)
 Electrical Switchboard Manager is an all-in-one solution designed to streamline workshop operations, cost control, inventory tracking, and technical engineering tasks in the electrical manufacturing sector.
 
 🚀 Key Features:
