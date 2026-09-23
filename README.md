@@ -1,36 +1,63 @@
+Ecco la descrizione completa del programma e gli ultimi aggiornamenti, tradotti sia in italiano che in inglese, pronti per essere copiati e incollati dove preferisci.
 
-Gestionale Quadri Elettrici è una soluzione all-in-one pensata per ottimizzare la gestione di officina, il controllo dei costi, il magazzino e la progettazione tecnica nel settore elettrotecnico.
+🇮🇹 ITALIANO
+⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
+Studio Sviluppatore: AN3DStudio di Alessandro Noemi
 
-🚀 Caratteristiche Principali:
-Gestione Commesse & Lavorazioni: Monitoraggio completo dei progetti, delle scadenze e delle fasi di avanzamento (dall'ordine dei materiali alla consegna).
+Sito Web Ufficiale: an3dstudio.odoo.com
 
-Controllo Costi & P&L: Analisi in tempo reale del budget preventivato rispetto ai costi effettivi di materiali e manodopera.
+Contatto Tecnico: an3dstudio99@gmail.com
 
-Magazzino Avanzato (10M+): Gestione scorte, soglie minime critiche, codici EAN, sezioni di magazzino e scanner barcode integrato.
+📋 Descrizione Generale del Programma
+Il Gestionale Quadri Elettrici è un software professionale e autonomo progettato specificamente per officine elettrotecniche, studi di progettazione e produttori di quadri elettrici. L'applicazione offre un ecosistema digitale completo per digitalizzare e velocizzare l'intero flusso di lavoro aziendale, dalla gestione delle commesse alla preventivazione, passando per il controllo del magazzino e la gestione del personale.
 
-Progettazione & Calcolo Tecnico: Moduli integrati per la verifica termica dei quadri (dissipazione e ventilazione forzata secondo CEI EN 61439) e il dimensionamento dei cavi (caduta di tensione).
+🔑 Funzionalità Principali:
+Gestione Officina e Commesse: Monitoraggio completo delle lavorazioni in corso, degli stati di avanzamento e delle specifiche tecniche dei quadri elettrici in produzione.
 
-Catalogo Sbarre & Flexibar: Gestione e dimensionamento rapido di sbarre in rame con verifica della portata in base al ΔT.
+Magazzino e Componentistica: Controllo inventariale integrato per componenti elettrici, morsettiere, apparecchiature modulari, carpenterie e accessori dei principali marchi di settore.
 
-Gestione Documentale & Foto Report: Salvataggio sicuro di manuali, schede tecniche e foto di lavorazione direttamente all'interno di database dedicati.
+Preventivazione e Calcoli Tecnici: Strumenti dedicati alla generazione rapida di preventivi, computi metrici e gestione dei listini prezzi per cavi e materiali elettrici.
 
-Modalità Multi-Utente & Rete (NAS): Gestione dei ruoli (Admin, Operatore, Quadrista) e supporto per ambienti di rete condivisi.
+Importazione/Esportazione Dati: Integrazione nativa con fogli di calcolo Excel (openpyxl, xlrd) e documenti (python-docx) per la gestione automatizzata di schede tecniche e distinte base.
 
-🇬🇧 English
+Sicurezza Avanzata: Sistema di autenticazione multi-utente basato su database locale protetto (utenti.db) e integrazione della verifica a doppio fattore tramite Google Authenticator (TOTP) per l'accesso alle funzioni di amministrazione.
 
-Electrical Switchboard Manager is an all-in-one solution designed to streamline workshop operations, cost control, inventory tracking, and technical engineering tasks in the electrical manufacturing sector.
+🚀 Ultimi Aggiornamenti (Release v9.9.30 Beta)
+La versione v9.9.30 introduce importanti ottimizzazioni strutturali focalizzate sulla stabilità del pacchetto eseguibile e sull'esperienza utente:
 
-🚀 Key Features:
-Project & Work Order Management: Full tracking of manufacturing pipelines, delivery deadlines, and production phases.
+Stabilità dell'Eseguibile (.exe): Rimozione definitiva dei comandi di riavvio dinamico basati su os.execl, garantendo la massima compatibilità e prevenendo chiusure anomale durante l'esecuzione del pacchetto compilato tramite PyInstaller su sistemi Windows.
 
-Cost Control & Profitability: Real-time budget analysis comparing estimated vs. actual material and labor costs.
+Flusso Preferenze Ottimizzato: Implementata una procedura di chiusura pulita e controllata in seguito alla modifica delle impostazioni globali (come cambio lingua o valuta), eliminando conflitti di memoria e crash di runtime.
 
-Advanced Inventory System: Stock tracking, critical minimum thresholds, EAN barcodes, warehouse sections, and built-in barcode scanner.
+Integrazione Supporto e Aggiornamenti: Aggiornati i riferimenti diretti all'assistenza tecnica di AN3DStudio e migliorata la sincronizzazione con il server remoto per la verifica nativa delle nuove versioni direttamente dall'interfaccia grafica.
 
-Technical Design & Calculations: Integrated modules for switchboard thermal dissipation/forced ventilation (CEI EN 61439 compliance) and cable sizing (voltage drop).
+🇬🇧 ENGLISH
+⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
+Development Studio: AN3DStudio by Alessandro Noemi
 
-Busbars & Flexibar Catalog: Management and sizing of copper busbars with current ratings mapped to ΔT rises.
+Official Website: an3dstudio.odoo.com
 
-Document Archive & Photo Reports: Secure storage for technical manuals, datasheets, and switchboard workshop photographs directly inside dedicated databases.
+Technical Contact: an3dstudio99@gmail.com
 
-Multi-User & Network Mode (NAS): Role-based access control (Admin, Operator, Panel Builder) and support for shared network environments.
+📋 General Program Description
+Gestionale Quadri Elettrici is a professional, standalone software specifically designed for electrical workshops, engineering studios, and switchboard manufacturers. The application provides a comprehensive digital ecosystem to digitize and streamline the entire workflow, from order tracking and switchboard quotation to inventory control and personnel management.
+
+🔑 Key Features:
+Workshop & Order Management: Complete monitoring of ongoing operations, progress statuses, and technical specifications of electrical panels in production.
+
+Inventory & Components: Integrated inventory control for electrical components, terminal blocks, modular devices, enclosures, and accessories from leading industry brands.
+
+Quotation & Technical Calculations: Dedicated tools for the rapid generation of quotes, bills of quantities, and price list management for cables and electrical materials.
+
+Data Import/Export: Native integration with Excel spreadsheets (openpyxl, xlrd) and documents (python-docx) for the automated handling of technical data sheets and bills of materials.
+
+Advanced Security: Multi-user authentication system based on a protected local database (utenti.db) with two-factor authentication via Google Authenticator (TOTP) for administrative access.
+
+🚀 Latest Updates (v9.9.30 Beta Release)
+Version v9.9.30 introduces major structural optimizations focused on executable package stability and user experience:
+
+Executable (.exe) Stability: Permanent removal of dynamic restart commands based on os.execl, ensuring maximum compatibility and preventing unexpected crashes when running the PyInstaller-compiled package on Windows systems.
+
+Optimized Preferences Workflow: Implemented a clean and controlled shutdown procedure following global settings changes (such as language or currency adjustments), eliminating memory conflicts and runtime crashes.
+
+Support & Update Integration: Updated direct references to AN3DStudio technical support and enhanced synchronization with the remote server for native update checks directly from the user interface.
