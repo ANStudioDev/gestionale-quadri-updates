@@ -2,7 +2,7 @@ Ecco la descrizione completa del programma e gli ultimi aggiornamenti, tradotti 
 
 🇮🇹 ITALIANO
 ⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
-Studio Sviluppatore: AN3DStudio di Alessandro Noemi
+Studio Sviluppatore: ANStudio di Alessandro Noemi
 
 Sito Web Ufficiale: an3dstudio.odoo.com
 
@@ -33,7 +33,7 @@ Integrazione Supporto e Aggiornamenti: Aggiornati i riferimenti diretti all'assi
 
 🇬🇧 ENGLISH
 ⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
-Development Studio: AN3DStudio by Alessandro Noemi
+Development Studio: ANStudio by Alessandro Noemi
 
 Official Website: an3dstudio.odoo.com
 
