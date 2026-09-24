@@ -1,62 +1,64 @@
-Ecco la descrizione completa del programma e gli ultimi aggiornamenti, tradotti sia in italiano che in inglese, pronti per essere copiati e incollati dove preferisci.
+# Gestionale Quadri Elettrici
 
-🇮🇹 ITALIANO
-⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
-Studio Sviluppatore: ANStudio di Alessandro Noemi
+Applicazione desktop per organizzare commesse, preventivi, magazzino e attività di produzione relative ai quadri elettrici.
 
-Sito Web Ufficiale: an3dstudio.odoo.com
+## Funzionalità
 
-Contatto Tecnico: an3dstudio99@gmail.com
+- **Dashboard e avvisi** — riepilogo delle commesse, dell’archivio e degli articoli sotto scorta, con avvisi sulle attività da seguire.
+- **Gestione commesse** — creazione e consultazione delle commesse, monitoraggio dello stato di lavorazione, annotazioni d’officina, gestione delle tempistiche, report fotografici e consuntivi di costi e ore.
+- **Preventivazione e computo** — preparazione dei preventivi e delle righe di computo, gestione degli stati e conversione di un preventivo accettato in commessa. Esportazione dei preventivi in Word.
+- **Magazzino** — inserimento e aggiornamento degli articoli, carico e prelievo del materiale, ricerca tramite codice a barre, importazione da Excel o Word, esportazione Excel e consultazione dello storico dei prelievi.
+- **Verifica distinta materiali** — confronto della distinta con la disponibilità a magazzino e produzione di un report, anche dei soli materiali mancanti.
+- **Gestione sbarre** — consultazione e importazione del catalogo, inserimento delle sbarre e strumenti di calcolo.
+- **Archivio** — consultazione delle commesse archiviate e accesso alle relative cartelle.
+- **Bacheca e manuali** — condivisione di note operative e consultazione di documentazione.
+- **Utenti e accessi** — account con ruoli e permessi, accesso protetto da password e gestione delle sessioni.
+- **Licenza e assistenza** — attivazione tramite licenza e accesso temporaneo all’assistenza tramite token.
+- **Configurazione e aggiornamenti** — opzioni del programma e controllo degli aggiornamenti.
 
-📋 Descrizione Generale del Programma
-Il Gestionale Quadri Elettrici è un software professionale e autonomo progettato specificamente per officine elettrotecniche, studi di progettazione e produttori di quadri elettrici. L'applicazione offre un ecosistema digitale completo per digitalizzare e velocizzare l'intero flusso di lavoro aziendale, dalla gestione delle commesse alla preventivazione, passando per il controllo del magazzino e la gestione del personale.
+Le funzioni mostrate possono variare in base al ruolo dell’utente e al piano di licenza.
 
-🔑 Funzionalità Principali:
-Gestione Officina e Commesse: Monitoraggio completo delle lavorazioni in corso, degli stati di avanzamento e delle specifiche tecniche dei quadri elettrici in produzione.
+## Installazione e avvio
 
-Magazzino e Componentistica: Controllo inventariale integrato per componenti elettrici, morsettiere, apparecchiature modulari, carpenterie e accessori dei principali marchi di settore.
+Scaricare l’eseguibile dalla sezione [Releases](../../releases), salvarlo sul PC Windows e avviarlo. Al primo utilizzo, caricare una licenza valida seguendo le istruzioni mostrate dal programma.
 
-Preventivazione e Calcoli Tecnici: Strumenti dedicati alla generazione rapida di preventivi, computi metrici e gestione dei listini prezzi per cavi e materiali elettrici.
+La licenza attivata viene salvata in forma cifrata sul PC per gli avvii successivi. Prima di aggiornare il programma, chiuderlo; quindi installare o avviare la nuova versione.
 
-Importazione/Esportazione Dati: Integrazione nativa con fogli di calcolo Excel (openpyxl, xlrd) e documenti (python-docx) per la gestione automatizzata di schede tecniche e distinte base.
+## Licenza e assistenza
 
-Sicurezza Avanzata: Sistema di autenticazione multi-utente basato su database locale protetto (utenti.db) e integrazione della verifica a doppio fattore tramite Google Authenticator (TOTP) per l'accesso alle funzioni di amministrazione.
+La licenza è associata al PC su cui viene attivata. Gli strumenti per configurare le chiavi di sicurezza, emettere licenze e generare token di assistenza sono destinati all’amministratore. Per richiedere una licenza, trasferire un’attivazione o ricevere supporto, contattare il fornitore del programma.
 
-🚀 Ultimi Aggiornamenti (Release v9.9.30 Beta)
-La versione v9.9.30 introduce importanti ottimizzazioni strutturali focalizzate sulla stabilità del pacchetto eseguibile e sull'esperienza utente:
+---
 
-Stabilità dell'Eseguibile (.exe): Rimozione definitiva dei comandi di riavvio dinamico basati su os.execl, garantendo la massima compatibilità e prevenendo chiusure anomale durante l'esecuzione del pacchetto compilato tramite PyInstaller su sistemi Windows.
+# Gestionale Quadri Elettrici
 
-Flusso Preferenze Ottimizzato: Implementata una procedura di chiusura pulita e controllata in seguito alla modifica delle impostazioni globali (come cambio lingua o valuta), eliminando conflitti di memoria e crash di runtime.
+A desktop application for organizing jobs, quotations, inventory, and production activities related to electrical switchboards.
 
-Integrazione Supporto e Aggiornamenti: Aggiornati i riferimenti diretti all'assistenza tecnica di AN3DStudio e migliorata la sincronizzazione con il server remoto per la verifica nativa delle nuove versioni direttamente dall'interfaccia grafica.
+## Features
 
-🇬🇧 ENGLISH
-⚡ GESTIONALE QUADRI ELETTRICI (v9.9.30)
-Development Studio: ANStudio by Alessandro Noemi
+- **Dashboard and alerts** — overview of jobs, archived work, and low-stock items, with alerts for activities that need attention.
+- **Job management** — create and review jobs, track work status, add workshop notes, manage timing, maintain photo reports, and record actual costs and labor hours.
+- **Quotations and cost estimates** — prepare quotations and estimate line items, manage quotation statuses, and convert an accepted quotation into a job. Export quotations to Word.
+- **Inventory** — add and update items, receive and withdraw materials, search using barcodes, import from Excel or Word, export to Excel, and review withdrawal history.
+- **Bill of materials checks** — compare a bill of materials with stock availability and generate a report, including a report of missing materials only.
+- **Busbar management** — browse and import the catalog, add busbars, and access calculation tools.
+- **Archive** — review archived jobs and open their related folders.
+- **Notice board and manuals** — share operational notes and access documentation.
+- **Users and access** — accounts with roles and permissions, password-protected access, and session management.
+- **Licensing and support** — activate the software with a license and use a support token for temporary assistance access.
+- **Settings and updates** — configure program options and check for updates.
 
-Official Website: an3dstudio.odoo.com
+Available features may vary according to the user’s role and license plan.
 
-Technical Contact: an3dstudio99@gmail.com
+## Installation and startup
 
-📋 General Program Description
-Gestionale Quadri Elettrici is a professional, standalone software specifically designed for electrical workshops, engineering studios, and switchboard manufacturers. The application provides a comprehensive digital ecosystem to digitize and streamline the entire workflow, from order tracking and switchboard quotation to inventory control and personnel management.
+Download the executable from [Releases](../../releases), save it on a Windows PC, and run it. On first use, load a valid license by following the instructions displayed by the program.
 
-🔑 Key Features:
-Workshop & Order Management: Complete monitoring of ongoing operations, progress statuses, and technical specifications of electrical panels in production.
+Once activated, the license is stored in encrypted form on the PC for subsequent launches. Close the program before updating, then install or run the new version.
 
-Inventory & Components: Integrated inventory control for electrical components, terminal blocks, modular devices, enclosures, and accessories from leading industry brands.
+## License and support
 
-Quotation & Technical Calculations: Dedicated tools for the rapid generation of quotes, bills of quantities, and price list management for cables and electrical materials.
-
-Data Import/Export: Native integration with Excel spreadsheets (openpyxl, xlrd) and documents (python-docx) for the automated handling of technical data sheets and bills of materials.
-
-Advanced Security: Multi-user authentication system based on a protected local database (utenti.db) with two-factor authentication via Google Authenticator (TOTP) for administrative access.
-
-🚀 Latest Updates (v9.9.30 Beta Release)
-Version v9.9.30 introduces major structural optimizations focused on executable package stability and user experience:
-
-Executable (.exe) Stability: Permanent removal of dynamic restart commands based on os.execl, ensuring maximum compatibility and preventing unexpected crashes when running the PyInstaller-compiled package on Windows systems.
+The license is associated with the PC on which it is activated. The tools for configuring security keys, issuing licenses, and generating support tokens are intended for administrators. Contact the software provider to request a license, transfer an activation, or get support.
 
 Optimized Preferences Workflow: Implemented a clean and controlled shutdown procedure following global settings changes (such as language or currency adjustments), eliminating memory conflicts and runtime crashes.
 
